@@ -1,0 +1,14 @@
+package list;
+
+import java.util.Scanner;
+
+public class MusicView {
+	// 필드
+	private Scanner sc = new Scanner(System.in);
+	private MusicController mc = new MwsicController();
+	
+	// 메인 메뉴
+	public void mainMenu() {
+		
+	}
+}

@@ -1,0 +1,19 @@
+package token;
+
+public class TokenController {
+	// 기본 생성자
+	public TokenController() {}
+	
+	// 메소드
+	public String afterToken(String str) {
+		return null;
+	}
+	
+	public String firstcap(String input) {
+		return null;
+	}
+	
+	public int findChar(String input, char one) {
+		return 0;
+	}
+}

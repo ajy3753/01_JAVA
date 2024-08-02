@@ -1,0 +1,14 @@
+package token;
+
+import java.util.Scanner;
+
+public class TokenMenu {
+	// 필드
+	private Scanner sc = new Scanner(System.in);
+	private TokenController tc = new TokenController();
+	
+	// 메인 메뉴
+	public void mainMenu() {
+		
+	}
+}

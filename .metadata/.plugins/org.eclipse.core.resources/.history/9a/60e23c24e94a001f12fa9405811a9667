@@ -1,0 +1,29 @@
+package t240726.token;
+
+import java.util.StringTokenizer;
+
+public class TokenController {
+	// 기본 생성자
+	public TokenController() {}
+	
+	// 메쏘등
+	public String afterToken(String str) {
+		// 매개변수로 받아온 str을 StringTokenizer를 이용하여 띄어쓰기를 없애고 없앤 문자열을 반환
+		StringTokenizer afterToken = new StringTokenizer(str, " ");
+		String afterString = "";
+		while(afterToken.hasMoreElements()) {
+			afterString += afterToken.nextToken();
+		}
+		return afterString;
+	}
+	
+	public String firestCap(String input) {
+		// 매개변수로 받아온 input 첫 번째 글자만 대문자로 바꾼 문자열 반환
+		return null;
+	}
+	
+	public int findChar(String input, char one) {
+		// 매개변수의 문자가 문자열 안에 몇 개가 들어가있는지 반환
+		return 0;
+	}
+}

@@ -1,0 +1,23 @@
+package file;
+
+public class FileController {
+	// 필드
+	private FileDAO fd = new FileDAO();
+	
+	// 메소드
+	public boolean checkName(String file) {
+		return fd.checkName(file);
+	}
+	
+	public void fileSave(String file, StringBuilder sb) {
+		fd.fileSave(file, sb.toString());
+	}
+	
+	public StringBuilder fileOpen(String file) {
+		return fd.fileOpen(file);
+	}
+	
+	public void fileEdit(String file, StringBuilder sb) {
+		// 매개변수로 넘어온 sb를 String으로 바꿔, fd의 fileEdit() 메소드 배개변수로 file과 String을 넘김
+	}
+}

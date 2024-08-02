@@ -1,0 +1,5 @@
+package numRange;
+
+public class NumRangeException extends RuntimeException {
+
+}

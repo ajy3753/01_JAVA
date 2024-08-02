@@ -1,0 +1,27 @@
+package file;
+
+public class FileController {
+	// 필드
+	private FileDAO fd = new FileDAO();
+	
+	// DAO에 매개변수를 전달하고, DAO로부터 잔달받은 값을 다시 반환
+	public boolean checkName(String file) {
+		return true;
+	}
+	
+	// 전달받은 매개변수를 변경하고, DAO에 전달
+	public void fileSave(String file, StringBuilder sb) {
+		// 매개변수로 넘어온 sb를 String으로 바꿔, fd의 fileSave() 메소드 매개변수로 file과 String을 넘김
+	}
+	
+	// DAO에 매개변수를 전달하고, DAO로부터 전달받은 값을 다시 반환
+	public StringBuilder fileOpen(String file) {
+		// fd의 fileOpen() 매개변수로 file을 넘겨주고 그 반환 값을 그대로 받아 또 반환
+		return null;
+	}
+	
+	// 전달받은 매개변수를 변경하고, DAO에 전달
+	public void fileEdit(String file, StringBuilder sb) {
+		// 매개변수로 넘어온 sb를 String으로 바꿔, fd의 fileEdit() 메소드 배개변수로 file과 String을 넘김
+	}
+}

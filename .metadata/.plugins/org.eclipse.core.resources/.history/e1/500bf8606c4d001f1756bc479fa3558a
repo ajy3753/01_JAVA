@@ -1,0 +1,39 @@
+package t240729.Lottery;
+
+import java.util.Scanner;
+
+public class LotteryMenu {
+	// 필드
+	private Scanner sc = new Scanner(System.in);
+	
+	public void mainMenu() {
+		System.out.println("========== 추첨 프로그램 ==========");
+		
+		System.out.println("***** 메인 메뉴 *****");
+		System.out.println("1. 추첨 대상 추가");
+		System.out.println("2. 추첨 대상 삭제");
+		System.out.println("3. 당첨 대상 확인");
+		System.out.println("4. 정렬된 당첨 대상 확인");
+		System.out.println("5. 당첨 대상 검색");
+		System.out.println("9. 종료");
+		
+		System.out.print("메뉴 번호 선택 : ");
+		int choice choice= sc.nextInt();
+	}
+	
+	public void insertObject() {
+		
+	}
+	
+	public void deeleteObject() {
+		
+	}
+	
+	public void winObject() {
+		
+	}
+	
+	public void searchWinner() {
+		
+	}
+}

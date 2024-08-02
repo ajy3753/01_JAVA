@@ -1,0 +1,9 @@
+package n.generic;
+
+public class Box<T> {
+	private T[] obArr;
+	
+	public void setObArr(Integer[] arr) {
+		
+	}
+}

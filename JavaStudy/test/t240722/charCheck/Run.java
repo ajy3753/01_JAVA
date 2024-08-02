@@ -1,0 +1,17 @@
+package t240722.charCheck;
+
+public class Run {
+	public static void main(String[] args) {
+		/*
+		 * 예외처리방법
+		 * 1. try~catch문을 이용
+		 * 2.throws를 이용(떠넘기기)
+		 * 
+		 * - 사용한 리소스 반납방법 2가지
+		 * 1. finally에서 반남
+		 * 2. try-with-resorce
+		 */
+
+		new CharacterMenu().Menu();
+	}
+}

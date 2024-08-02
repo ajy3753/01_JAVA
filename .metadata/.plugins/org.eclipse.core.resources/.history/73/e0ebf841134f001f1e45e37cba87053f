@@ -1,0 +1,13 @@
+package list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MusicController {
+	private List list = new ArrayList();
+	
+	// 메소드
+	public int addList(Music music) {
+		return 0;
+	}
+}

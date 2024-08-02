@@ -1,0 +1,9 @@
+package t240729.MVC;
+
+import java.util.Scanner;
+
+public class MusicView {
+	// 필드
+	private Scanner sc = new Scanner(System.in);
+	private MusicController mc = new MusicController();
+}

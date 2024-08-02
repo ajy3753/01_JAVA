@@ -1,0 +1,34 @@
+package t240729.MVC;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MusicController {
+	// 필드
+	private List list = new ArrayList();
+	
+	// 메소드
+	public int addList(Music music) {
+		return 0;
+	}
+	
+	public int addAtZero(Music music) {
+		return 0;
+	}
+	
+	public List printAll() {
+		return list;
+	}
+	
+	public Music searchMusic(String title) {
+		return null;
+	}
+	
+	public Music removeMusic(String title) {
+		return null;
+	}
+	
+	public Music setMusic(String title, Music music) {
+		return null;
+	}
+}

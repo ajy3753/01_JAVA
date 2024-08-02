@@ -1,0 +1,10 @@
+package charCheck;
+
+public class CharCheckException extends RuntimeException {
+	// 기본 생성자
+	public CharCheckException() {}
+	
+	public CharCheckException(String msg) {
+		super();
+	}
+}

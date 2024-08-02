@@ -1,0 +1,26 @@
+package o.collection.list;
+
+import java.util.HashSet;
+
+public class setRun {
+	public static void main(String[] args) {
+		/*
+		 * Object에 equals() => 두 객체의 "주소값"을 비교해서 일치하면 true, 일치하지 않으면 false 반환
+		 * Object에 hashCone() => 해당 객체의 "주소값"을 가지고 10진수 형태로 만들어서 반환
+		 */
+		
+		HashSet hsi = new HashSet();
+		
+		/*
+		 * 저장 순서를 유지하지 않는다. 중복된 데이터(동일객체) 보관 불가
+		 * String에 equals() 오버라이딩 => "실제 담긴 문자열"을 가지고 동등비교를 진행해서 일치하면 true, 일치하지 않으면 false
+		 * String에 hashCode() 오버라이딩 => "실제 담긴 문자열"을 가지고 10진수의 형태로 만들어서 반환
+		 */
+		hsi.add("hello");
+		hsi.add("world");
+		
+		System.out.println(hsi);
+
+		
+	}
+}

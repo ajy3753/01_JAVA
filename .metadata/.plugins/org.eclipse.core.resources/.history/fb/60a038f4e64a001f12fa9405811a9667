@@ -1,0 +1,25 @@
+package t240726.token;
+
+import java.util.Scanner;
+
+public class TokenMenu {
+	// 필드일까요 아닐까요
+	private Scanner sc = new Scanner(System.in);
+	private TokenController tc = new TokenController();
+	
+	// 메소드
+	public void mainMenu() {
+		
+	}
+	
+	public void tokenMenu() {
+		// 토큰 처리 전 글자, 토큰 처리 전 개수를 출력
+		// TokenController(tc)의 afterToken()의 반환 값을 가지고
+		// 토큰 처리 후 글자, 토큰 처리 후 개수, 모두 대문자로 변환한 것을 출력
+		String str = "J a v a P r o g r a m";
+	}
+	
+	public void inputMenu() {
+		
+	}
+}

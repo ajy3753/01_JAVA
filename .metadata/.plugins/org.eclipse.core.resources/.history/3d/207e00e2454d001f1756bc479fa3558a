@@ -1,0 +1,9 @@
+package t240729.MVC;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MusicController {
+	// 필드
+	private List list = new ArrayList();
+}

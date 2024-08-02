@@ -1,0 +1,13 @@
+package o.collection.list;
+
+public class setRun {
+
+	public static void main(String[] args) {
+		/*
+		 * Object에 equals() => 두 객체의 "주소값"을 비교해서 일치하면 true, 일치하지 않으면 false 반환
+		 * 
+		 */
+
+	}
+
+}

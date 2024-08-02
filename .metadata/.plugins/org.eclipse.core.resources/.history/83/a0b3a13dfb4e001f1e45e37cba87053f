@@ -1,0 +1,7 @@
+package t240731;
+
+public class FarmMenu {
+	public void mainMenu() {
+		
+	}
+}

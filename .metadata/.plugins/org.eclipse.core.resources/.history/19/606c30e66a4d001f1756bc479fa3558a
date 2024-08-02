@@ -1,0 +1,14 @@
+package t240729.Lottery;
+
+public class Lottery {
+	private String name;
+	private String phone;
+	
+	// 기본 생성자
+	public Lottery() {}
+	
+	public Lottery(String name, String phone) {
+		this.name = name;
+		this.phone = phone;
+	}
+}

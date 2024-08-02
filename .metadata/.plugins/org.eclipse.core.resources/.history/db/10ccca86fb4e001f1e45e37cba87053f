@@ -1,0 +1,13 @@
+package t240731;
+
+import java.util.Scanner;
+
+public class FarmMenu {
+	// 필드
+	private Scanner sc = new Scanner(System.in);
+	FarmController fc = new FarmController();
+	
+	public void mainMenu() {
+		
+	}
+}

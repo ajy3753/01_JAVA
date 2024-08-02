@@ -1,0 +1,59 @@
+package list;
+
+import java.util.Scanner;
+
+public class MusicView {
+	// 필드
+	private Scanner sc = new Scanner(System.in);
+	private MusicController mc = new MusicController();
+	private int choice;
+	
+	// 메인 메뉴
+	public void mainMenu() {
+		System.out.println("********** 메인 메뉴 **********");
+		System.out.println("1. 마지막 위치에 곡 추가");
+		System.out.println("2. 첫 위치에 곡 추가");
+		System.out.println("3. 전체 곡 목록 출력");
+		System.out.println("4. 특정 곡 검색");
+		System.out.println("5. 특정 곡 삭제");
+		System.out.println("6. 특정 곡 정보 수정");
+		System.out.println("7. 곡명 오름차순 정렬");
+		System.out.println("8. 가수명 내림차순 정렬");
+		System.out.println("9. 종료");
+		
+		System.out.print("메뉴 번호 선택 : ");
+		
+	}
+	
+	public void addList() {
+		
+	}
+	
+	public void addAtZero() {
+		
+	}
+	
+	public void printAll() {
+		
+	}
+	
+	public void searchMusic() {
+		
+	}
+	
+	public void removeMusic() {
+		
+	}
+	
+	public void setMusic() {
+		
+	}
+	
+	public void ascTitle() {
+		
+	}
+	
+	public void descSinger() {
+		
+	}
+}

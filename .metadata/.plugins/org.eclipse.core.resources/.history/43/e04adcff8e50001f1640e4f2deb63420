@@ -1,0 +1,11 @@
+package prototype;
+
+import java.net.ServerSocket;
+
+public class server {
+	int port = 3000;
+	
+	ServerSocket server = null;
+	
+	server = new ServerSocket(port);
+}

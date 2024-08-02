@@ -1,0 +1,16 @@
+package t240729.Lottery;
+
+import java.util.Comparator;
+
+public class SortedLottery implements Comparator<Lottery> {
+
+	@Override
+	public int compare(Lottery o1, Lottery o2) {
+		int num = o1.getName().compareTo(o2.getName());
+		// 0 보다 작은 수(음수) : o1이 o2 보다 작다.
+		// 0 : 동일하다
+		// 0 보다 큰 수(양수) : o1이 o2보다 크다.
+		return 0;
+	}
+
+}

@@ -1,0 +1,15 @@
+package file;
+
+public class Run {
+	public static void main(String[] args) {
+		/*
+		 * [입출력 실습문제]
+		 * - 생성할 파일
+		 * 1) intriduce.txt
+		 * 2) sleep.txt
+		 */
+
+		FileMenu fm = new FileMenu();
+		fm.mainMenu();
+	}
+}

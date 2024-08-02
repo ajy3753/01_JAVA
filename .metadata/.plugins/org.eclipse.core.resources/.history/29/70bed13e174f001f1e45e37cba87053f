@@ -1,0 +1,107 @@
+package list;
+
+import java.util.Scanner;
+
+public class MusicView {
+	// 필드
+	private Scanner sc = new Scanner(System.in);
+	private MusicController mc = new MusicController();
+	
+	// 메인 메뉴
+	public void mainMenu() {
+		while(true) {
+			System.out.println("********** 메인 메뉴 **********");
+			System.out.println("1. 마지막 위치에 곡 추가");
+			System.out.println("2. 첫 위치에 곡 추가");
+			System.out.println("3. 전체 곡 목록 출력");
+			System.out.println("4. 특정 곡 검색");
+			System.out.println("5. 특정 곡 삭제");
+			System.out.println("6. 특정 곡 정보 수정");
+			System.out.println("7. 곡명 오름차순 정렬");
+			System.out.println("8. 가수명 내림차순 정렬");
+			System.out.println("9. 종료");
+			
+			System.out.print("메뉴 번호 선택 : ");
+			int choice = sc.nextInt();
+			sc.nextLine();
+			
+			switch(choice) {
+			case 1 :
+				addList();
+				break;
+			case 2 :
+				addAtZero();
+				break;
+			case 3 :
+				printAll();
+				break;
+			case 4 :
+				searchMusic();
+				break;
+			case 5 :
+				removeMusic();
+				break;
+			case 6 :
+				setMusic();
+				break;
+			case 7 :
+				ascTitle();
+				break;
+			case 8 :
+				descSinger();
+				break;
+			case 9 :
+				System.out.println("프로그램 종료");
+				return;
+			default :
+				System.err.println("잘못된 입력입니다. 다시 입력해주세요.\n");
+			}
+		}
+	}
+	
+	// 1. 마지막 위치에 곡 추가
+	public void addList() {
+		// 1) 곡명과 가수명을 사용자에게 입력 받는다.
+		// 2) MusicController에 addList()를 이용해서 입력한 정보를 넘기고
+		// 3) 추가 성공 시 "추가 성공", 추가 실패 시 "추가 실패"를 출력
+		System.out.println("===== 1. 마지막 위치에 곡 추가 =====");
+		
+	}
+	
+	// 2. 첫 위치에 곡 추가
+	public void addAtZero() {
+		// 1) 곡명과 가수명을 사용자에게 입력 받음
+		// 2) MusicController에 addZero()를 이용해서 입력한 정보를 넘기고
+		// 3) 추가 성공 시 "추가 성공", 추가 실패 시 "추가 실패"를 출력
+	}
+	
+	// 3. 전체 곡 목록 출력
+	public void printAll() {
+		
+	}
+	
+	// 4. 특정 곡 검색
+	public void searchMusic() {
+		
+	}
+	
+	// 5. 특정 곡 삭제
+	public void removeMusic() {
+		
+	}
+	
+	// 6. 특정 곡 정보 수정
+	public void setMusic() {
+		
+	}
+	
+	// 7. 곡명 오름차순 정렬
+	public void ascTitle() {
+		
+	}
+	
+	// 8. 가수명 내림차순 정렬
+	public void descSinger() {
+		
+	}
+}

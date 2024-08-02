@@ -1,0 +1,12 @@
+package t240731;
+
+public class Farm {
+	private String kind;
+	
+	// 기본 생성자
+	public Farm() {}
+	
+	public Farm(String kind) {
+		this.kind = kind;
+	}
+}

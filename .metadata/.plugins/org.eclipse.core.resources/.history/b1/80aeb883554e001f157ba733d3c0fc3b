@@ -1,0 +1,6 @@
+package token;
+
+public class TokenController {
+	// 기본 생성자
+	public TokenController() {}
+}

@@ -1,0 +1,21 @@
+package p.network;
+
+import java.net.DatagramSocket;
+import java.net.SocketException;
+
+public class UDPServer {
+	public static void main(String[] args) {
+		// 포트는 중복 사용 불가능 (같은 포트를 사용하고자 할 때는 반드시 다른 작업은 종료 시켜야한다)
+		int port = 4000;
+		
+		try {
+			// 서버가 포트를 결합하여 요청을 받을 준비를 한다
+			DatagramSocket doc = new DatagramSocket(port);
+			
+			// 전송 받은 데이터를 지정할 바이트 배열
+		} catch (SocketException e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

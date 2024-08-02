@@ -1,0 +1,35 @@
+package list;
+
+public class Music {
+	// 매개변수
+	private String title;
+	private String singer;
+	
+	// 기본 생성자
+	public Music() {}
+	
+	public Music(String title, String singer) {
+		this.title = title;
+		this.singer = singer;
+	}
+	
+	// 메소드
+	
+	// getter
+	public String getTitle() {
+		return this.title;
+	}
+	
+	public String getSinger() {
+		return this.singer;
+	}
+	
+	// setter
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	
+	public void setSinger(String singer) {
+		this.singer = singer;
+	}
+}

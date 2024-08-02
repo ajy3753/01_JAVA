@@ -1,0 +1,15 @@
+package o.collection.list;
+
+public class Music {
+	private String title;
+	private String artist;
+	
+	public Music() {
+		super();
+	}
+	
+	public Music(String title, String artist) {
+		this.title = title;
+		this.artist = artist;
+	}
+}

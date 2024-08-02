@@ -1,0 +1,28 @@
+package t240729.Lottery;
+
+import java.util.Scanner;
+
+public class LotteryMenu {
+	// 필드
+	private Scanner sc = new Scanner(System.in);
+	
+	public void mainMenu() {
+		
+	}
+	
+	public void insertObject() {
+		
+	}
+	
+	public void deeleteObject() {
+		
+	}
+	
+	public void winObject() {
+		
+	}
+	
+	public void searchWinner() {
+		
+	}
+}

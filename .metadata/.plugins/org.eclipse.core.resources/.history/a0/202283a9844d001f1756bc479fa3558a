@@ -1,0 +1,7 @@
+package numRange;
+
+public class NumberMenu {
+	public void menu() {
+		
+	}
+}

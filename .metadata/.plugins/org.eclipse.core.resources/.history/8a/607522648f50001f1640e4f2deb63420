@@ -1,0 +1,8 @@
+package prototype;
+
+public class client {
+	public static void main(String[] args) {
+		int port = 3000;
+		String serverIP = "192.168.30.213";
+	}
+}

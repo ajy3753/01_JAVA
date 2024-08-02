@@ -1,0 +1,77 @@
+package t240729.Lottery;
+
+import java.util.Scanner;
+
+public class LotteryMenu {
+	// 필드
+	private Scanner sc = new Scanner(System.in);
+	private LotteryController lc = new LotteryController();
+	
+	public void mainMenu() {
+		System.out.println("========== 추첨 프로그램 ==========");
+		
+		while(true) {
+			System.out.println("***** 메인 메뉴 *****");
+			System.out.println("1. 추첨 대상 추가");
+			System.out.println("2. 추첨 대상 삭제");
+			System.out.println("3. 당첨 대상 확인");
+			System.out.println("4. 정렬된 당첨 대상 확인");
+			System.out.println("5. 당첨 대상 검색");
+			System.out.println("9. 종료");
+			
+			System.out.print("메뉴 번호 선택 : ");
+			int choice = sc.nextInt();
+			
+			 switch(choice) {
+			 case 1 :
+				 insertObject();
+				 break;
+			 case 2 :
+				 deleteObject();
+				 break;
+			 case 3 :
+				 winObject();
+				 break;
+			 case 4 :
+				 sortedWinObject();
+				 break;
+			 case 5 :
+				 searchWinner();
+				 break;
+			 case 9 :
+				 System.out.println("프로그램을 종료합니다.");
+				 return;
+			 default :
+				 System.err.println("잘못된 입력입니다. 다시 입력해주세요.\n");
+			 }
+		}
+	}
+	
+	public void insertObject() {
+		System.out.print("추가할 추첨 대상 수 : ");
+		int num = sc.nextInt();
+		
+		while(num > 0) {
+			System.out.print("이름 : ");
+			System.out.print("핸드폰 번호 ('-' 빼고) : ");
+			
+			nu--;
+		}
+	}
+	
+	public void deleteObject() {
+		
+	}
+	
+	public void winObject() {
+		
+	}
+	
+	public void sortedWinObject() {
+		
+	}
+	
+	public void searchWinner() {
+		
+	}
+}

@@ -1,0 +1,50 @@
+package t240731;
+
+import java.util.Scanner;
+
+public class FarmMenu {
+	// 필드
+	private Scanner sc = new Scanner(System.in);
+	FarmController fc = new FarmController();
+	
+	// 메인 메뉴
+	public void mainMenu() {
+		
+	}
+	
+	public void adminMenu() {
+		
+	}
+	
+	public void customerMenu() {
+		
+	}
+	
+	public void addNewKind() {
+		
+	}
+	
+	public void removeKind() {
+		
+	}
+	
+	public void changeAmount() {
+		
+	}
+	
+	public void printFarm() {
+		
+	}
+	
+	public void buyFarm() {
+		
+	}
+	
+	public void removeFarm() {
+		
+	}
+	
+	public void printButFarm() {
+		
+	}
+}

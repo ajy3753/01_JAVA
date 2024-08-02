@@ -1,0 +1,19 @@
+package t240726.token;
+
+public class TokenController {
+	// 기본 생성자
+	public TokenController() {}
+	
+	// 메쏘등
+	public String afterToken(String str) {
+		return null;
+	}
+	
+	public String firestCap(String input) {
+		return null;
+	}
+	
+	public int findChar(String input, char one) {
+		return 0;
+	}
+}

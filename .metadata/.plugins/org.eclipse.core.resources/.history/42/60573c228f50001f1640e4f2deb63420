@@ -1,0 +1,14 @@
+package prototype;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+
+public class server {
+	int port = 3000;
+	
+	try {
+		ServerSocket server = new ServerSocket(port);
+	} catch (IOException e) {
+		e.printStackTrace();
+	}
+}

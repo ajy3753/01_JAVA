@@ -1,0 +1,11 @@
+package numRange;
+
+public class NumberController {
+	// 기본 생성자
+	public NumberController() {}
+	
+	// 메소드
+	public boolean checkDouble(int num1, int num2) throws NumRangeException() {
+		return true;
+	}
+}

@@ -1,0 +1,5 @@
+package prototype;
+
+public class Fruit {
+	public Fruit(String fruit, String color) {	}
+}

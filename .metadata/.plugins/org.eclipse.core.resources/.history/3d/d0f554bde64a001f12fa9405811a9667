@@ -1,0 +1,22 @@
+package t240726.token;
+
+import java.util.Scanner;
+
+public class TokenMenu {
+	// 필드일까요 아닐까요
+	private Scanner sc = new Scanner(System.in);
+	private TokenController tc = new TokenController();
+	
+	// 메소드
+	public void mainMenu() {
+		
+	}
+	
+	public void tokenMenu() {
+		
+	}
+	
+	public void inputMenu() {
+		
+	}
+}

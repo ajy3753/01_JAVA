@@ -1,0 +1,96 @@
+package JavaStudy.src.b.operator;
+
+import java.util.Scanner;
+
+public class Operator5 {
+
+	 * /*
+	 * 논리연산자 두개의 
+	 * 리값을 연산해주는 연산자 논리연산한 결과도 논리값이 된다.
+	 * 
+	 * 논리값 && 논리값 : 왼쪽, 오른쪽에 두 논리값이 모두 true일 
+	 * 만 결과가 true이다. 논리값 || 논 쪽, 오른쪽 두
+	 * 값중 하나라도 true라면 결과는 true가 된다.
+	 * 
+	 * 
+	 * && true &&
+	 * ture -> true; true && f
+	 * lse -> false; false && ture -> false;
+	 * false && f
+	 * lse -> false; => 앞의 결과가 false일 경우 뒤의 조건은 궂이 실행하지 않는다.
+	 * 
+	 * 
+	 * || true ||
+	 * ture -> true; true || 
+	 * alse -> true; false ||
+	 * ture  e; false
+	 * || f
+	 * lse -> false; => 앞의 결과가 true일 경우 뒤의 조건은 궂이 실행하지 않아도 된다.
+	 * 
+	 */
+	public static void main(String[] args) {
+		Scanner sc = new Scann
+		
+		te
+		
+
+		/*
+		 * // 사용자에게 숫자를 입력받아 해당 숫자가 1
+		100사이의 값인
+		t num1;
+		 * System.out.print(
+		정수 하나 입력 :"); num1 =
+		
+		
+		 * 
+		 * // 1 <= num1 <= 100 -> 1 <= num1 
+		& num1 <= 100 boolean result = num1)
+		 * && 
+		num1 <= 100); System.out.println("사용자가 입력한 값은 1이상 100이하이다 
+		 r
+		
+		;		 */
+
+		// 사용자에게 알파벳 하나를 입력받아 소문자를 확인
+	 
+		문자 하나 입력 :
+		// 사용자가 입력한 값이 대문자 입니다 : (tru
+		)
+		/*
+				 * char ch; System.out.print("
+		자 하나 입력 : "); // 문자하나를 입력받을 때
+		 cha 하자 ch =
+		 * sc.nex
+		
+		
+		 * 
+		
+		 * //1번 방법 boolean res1 = (ch >= 65) 
+		& (ch <= 90); boolean res2 >= 'A')
+		 * &
+		 (ch <= 'Z'); boolean res3 = (ch >= 'a') &
+		
+		
+		 * 
+		 * System.out.println("사용자가 입력한 값이 대문자 입니
+		 res2);
+		 * System.out.println("사용자가 입력한 값이 소문자 입니
+		 res3);
+		 * System.out.println("사용자가 입력한 값이 알파벳입니다 : " + (r
+		| 
+		
+		;
+		 */
+
+	
+		
+		um = 10;
+
+		boolean result = (num > 5) & 
+		
+		um > 0);
+
+		System.out.println("연산후의 num : " + num);
+	}
+
+}

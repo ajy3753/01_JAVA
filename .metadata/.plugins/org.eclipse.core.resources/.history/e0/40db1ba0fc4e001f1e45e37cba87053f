@@ -1,0 +1,22 @@
+package t240731;
+
+public class Vegetable {
+	private String name;
+	
+	// 기본 생성자
+	public Vegetable() {}
+	
+	public Vegetable(String kind, String name) {
+		
+	}
+	
+	// getter
+	public String getName() {
+		return this.name;
+	}
+	
+	// setter
+	public void setName(String name) {
+		this.name = name;
+	}
+}

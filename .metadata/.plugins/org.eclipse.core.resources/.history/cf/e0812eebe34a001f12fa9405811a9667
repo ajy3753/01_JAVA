@@ -1,0 +1,36 @@
+package m.api.ex1;
+
+import java.util.StringTokenizer;
+
+public class B_String {
+	public void method02() {
+		// 2. 문자열을 리터럴값으로 생성
+		String str3 = "hello";
+		String str4 = "hello2";
+		
+		// 리터럴 제시 시 상수풀영역에 들어감
+		// String Pool 특징 : 동일한 문자열을 가질 수 없다.
+		
+		// 변경하는 순간 기존의 문자열 자리에서 변경되는 게 아닌
+		// 새로운 곳을 참조한도록 변경 됨(새로운 주소갑 숩여받음 == 주소값 변경)
+		
+		// 6. 문자열.toUperCase() : String => 문자열을 전부 대문자로 변경해서 반환
+		// 	  문자열.toLowerCase() : String => 문자열을 전부 소문자로 변경해서 반환
+		
+		// 7. 문자열.trim() : String
+		//	  문자열의 앞 뒤 공백을 제거시킨 새 문자열을 리턴
+		
+		// 8. 문자열.tocharArray() : char[]
+		
+		// 9. String -> valueOf
+		
+		// 분리된 문자열 배열을 다시 String으로 변경하는 방법
+		// String.join(구분자, 배열);
+		
+		// 방법2. 분리된 문자열들을 각각 토큰으로써 관리 가능 
+		// java.util.StringTokenizer 클래스 이용
+		// StringTokenizer stn = new StringTokenizer(배열, 구분자);
+		String str5 = "뭐,였,더,라";
+		StringTokenizer stn = new StringTokenizer(str5, ",");
+	}
+}

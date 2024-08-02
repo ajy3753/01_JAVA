@@ -1,0 +1,89 @@
+package file;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class FileMenu {
+	// 필드
+	private Scanner sc = new Scanner(System.in);
+	
+	// 메소드
+	// 메인 메뉴
+	public void mainMenu() {
+		System.out.println("***** My Note *****");
+		System.out.println("1. 노트 새로 만들기");
+		System.out.println("2. 노트 열기");
+		System.out.println("3. 노트 열어서 수정하기");
+		System.out.println("9. 끝내기");
+		
+		System.out.print("메뉴 번호 : ");
+		int choice = sc.nextInt();
+		
+		switch(choice) {
+		case 1 :
+			fileSave();
+			break;
+		case 2 :
+			fileOpen();
+			break;
+		case 3 :
+			fileEdit();
+			break;
+		case 9 :
+			System.out.println("프로그램을 종료합니다.");
+			return;
+		default :
+			System.err.println("잘못된 입력입니다. 다시 입력해주세요.\n");
+			mainMenu();
+		}
+	}
+	
+	// 1. 노트 새로 만들기
+	public void fileSave() {
+		// 파일명과 저장할 값을 사용자에게 받음
+		// "ex끝it"을 입력할 대까지 사용자가 내용을 입력하게 하고 그 값들을 StringBuilder에 저장
+		// 저장할 파일명을 사용자에게 받는데 이때 이미 존재하는 파일명이라면 "이미 존재하는 파일입니다. 덮어쓰시겠습니까? (Y/N)"를 출력
+		// Y -> FileController(fc)에 fileSave() 메소드로 파일명과 StringBuilder를 넘김
+		// N -> "저장할 파일명을 입력해주세요"가 다시 나오게끔 반복
+		
+		System.out.println("\n===== 노트 새로 만들기 =====");
+		System.out.println("파일에 저장할 내용을 입력하세요.");
+		System.out.println("ex끝it 이라고 입력하면 종료됩니다.");
+		
+		StringBuilder content = new StringBuilder();
+		ArrayList<String> list = new ArrayList<>();
+		
+		while(true) {
+			System.out.print("내용 : ");
+			String str = sc.nextLine();
+			list.add(sc.nextLine() + "\n");
+			
+			if(list.get(list.size() - 1).equals("ex끝it")) {
+				list.remove(list.size() - 1);
+				break;
+			}
+		}
+		
+		for(int i = 0; i < list.size(); i++) {
+			content.append(list.get(i));
+		}
+		
+		System.out.println("입력된 내용 : " + content);
+		System.out.print("파일 저장명 : ");
+		String fileName = sc.next();
+		
+		
+		System.out.println();
+		mainMenu();
+	}
+	
+	// 2. 노트 열기
+	public void fileOpen() {
+		
+	}
+	
+	// 3. 노트 열어서 수정하기
+	public void fileEdit() {
+		
+	}
+}
